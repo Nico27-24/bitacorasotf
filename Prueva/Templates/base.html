@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="witch=device-witch, initial-scale=1.0"
+        <title>{ % block title % } { % enblock % }</title>
+    </head>
+    <body>
+        {% include "menu.html"}<!--Aqui se carga el menu-->
+        <div>
+            { % block contet % } {% enblock % } <!---->
+        </div>
+    </body>
+</html>
